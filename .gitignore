@@ -1,0 +1,22 @@
+# Secrets & credentials
+.env
+credentials/
+
+# Runtime output
+output/*
+!output/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE / OS
+.claude/
+.idea/
+.vscode/
+Thumbs.db
