@@ -134,9 +134,9 @@ OK → ввести пароль Windows-акаунту → OK
 C:\scraper\
   scraper.py                  # головний скрипт
   sheets.py                   # модуль Google Sheets
-  .env                        # конфіг з ключами (не додавати в git)
+  .env                        # конфіг з ключами 
   credentials\
-    service_account.json      # ключ сервісного акаунту (не додавати в git)
+    service_account.json      # ключ сервісного акаунту
   output\
     parts.csv                 # зібрані дані (оновлюється при кожному запуску)
   logs\
